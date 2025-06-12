@@ -1,0 +1,3 @@
+# Ignorar logs y archivos temporales
+*.log
+*.tmp
