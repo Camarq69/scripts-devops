@@ -48,12 +48,20 @@ chmod +x test_velocidad_red.sh
 Descarga un archivo de prueba desde un servidor de Internet, mide el tiempo, y calcula la velocidad estimada de descarga.
 Guarda el resultado en log_velocidad_red.log.
 
+### 4. Ejecutar monitorea_recursos.sh
+
+'''bash
+chmod +x monitorea_recursos.sh
+./monitorea_recursos.sh
+
+
 # Estructura del proyecto
 
 repositorio_scripts/
 -limpiar_archivos.sh
 -verificar_servicios.sh
 -test_velocidad_red.sh
+-monitorea_recursos.sh
 -log_velocidad_red.log
 -estado_servicios.log
 -.gitignore
